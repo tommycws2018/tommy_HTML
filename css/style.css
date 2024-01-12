@@ -1,0 +1,151 @@
+body {
+    background: #ccc;
+}
+
+ul {
+    color: cyan;
+}
+
+p {
+    text-align: center;
+}
+
+/* select item by CLASS. CLASS used by CSS. */
+.blue {
+    background: blue;
+    color: yellow;
+}
+
+/* select item by ID. ID are used in JS. */
+#pink {
+    background: pink;
+    color: red;
+}
+
+.manyStyles {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+    background: #fff;
+    border: 2px solid #000;
+    text-align: right;
+    padding: 30px;
+    margin: 50px;
+}
+
+.el {
+    background: olive;
+    color: #fff;
+    padding: 30px 100px 50px 20px;
+    margin: 50px 200px;
+    opacity: 0.6;
+}
+
+span {
+    color: orange;
+    font-size: 30px;
+}
+
+.green {
+    color: green;
+}
+
+.class2 {
+    color: yellow;
+}
+
+.square {
+    background: blue;
+    color: wheat;
+    height: 100px;
+    width: 100px;
+    line-height: 90px;
+    text-align: center;
+}
+
+.circle {
+    background: red;
+    color: white;
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    line-height: 90px;
+    text-align: center;
+}
+
+.imgHolder {
+    background: lightblue;
+}
+
+.imgHolder img {
+    width: 300px;
+    float: left;
+}
+
+.imgHolder .redClr {
+    color: red;
+}
+
+.clear {
+    clear: both;
+}
+
+.menu {
+    background: lightgreen;
+}
+
+.menu ul li {
+    background: green;
+    display: inline-block;
+}
+
+.menu ul li:hover {
+    background: olive;
+}
+
+.menu ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+.bttn {
+    background: pink;
+    width: 100px;
+    text-align: center;
+    padding: 20px 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+}
+
+.bttn:hover {
+    box-shadow: none;
+}
+
+.parent {
+    background: red;
+    width: 300px;
+    height: 200px;
+    position: relative;
+}
+
+.child {
+    background: blue;
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    right: 0px;
+    top: 10px;
+}
+
+.gridContainer {
+    display: grid;
+    gap: 50px;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 100px 100px;
+}
+.gridContainer .item{
+    background: pink;
+}
